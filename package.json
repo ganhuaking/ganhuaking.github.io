@@ -4,7 +4,7 @@
     "dev": "env-cmd .env vuepress dev src",
     "build": "env-cmd .env vuepress build src",
     "commit": "git-cz",
-    "gh-pages": "yarn build && gh-pages -d dist"
+    "gh-pages": "yarn build && gh-pages -d dist -b master"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.5.2",
