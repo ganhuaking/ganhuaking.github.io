@@ -58,6 +58,19 @@ Discord 有許多成熟且常見的 bot 如 [MEE6](https://mee6.xyz/), [YAGPDB.x
 
 👉 更多 [Discord Bot List](https://discordbots.org/)
 
+##### 目前已訂閱的 YouTube Channels
+
+- [Angular Taiwan](https://www.youtube.com/channel/UCIawWId4sXgkVZ_mCF25qGw)
+- [GitHub](https://www.youtube.com/user/github)
+- [GitLab](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg)
+- [hsiang an chi](https://www.youtube.com/user/polo13999)
+- [JCConf Taiwan](https://www.youtube.com/channel/UCGPOVYPBsMlg4Cx4jmkpuTw)
+- [JSConf](https://www.youtube.com/user/jsconfeu)
+- [JSDC.tw](https://www.youtube.com/user/JSDCTW)
+- [LaravelConf Taiwan](https://www.youtube.com/channel/UCZp5GBcPLFvzcbja_J5NdPw)
+- [Taiwan RubyConf](https://www.youtube.com/channel/UCqw_z59yI24SivuD573FECA)
+- [高見龍](https://www.youtube.com/channel/UClrlt5TMige_A_HKqpXd8GA)
+
 #### WebHook
 
 Webhook 可以依事件觸發在 channel 自動發佈訊息，如：GitHub webhook。
