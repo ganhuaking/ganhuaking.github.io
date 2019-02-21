@@ -7,11 +7,7 @@
     "gh-pages": "yarn build && gh-pages -d dist -b master"
   },
   "devDependencies": {
-    "@commitlint/cli": "^7.5.2",
-    "@commitlint/config-conventional": "^7.5.0",
     "@vue/eslint-config-prettier": "^4.0.1",
-    "commitizen": "^3.0.5",
-    "cz-conventional-changelog": "^2.1.0",
     "env-cmd": "^8.0.2",
     "eslint": "^5.14.1",
     "eslint-plugin-vue": "^5.2.2",
@@ -25,15 +21,9 @@
     "sass-loader": "^7.1.0",
     "vuepress": "^1.0.0-alpha.39"
   },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
