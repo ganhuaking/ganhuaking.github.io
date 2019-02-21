@@ -3,7 +3,6 @@
   "scripts": {
     "dev": "env-cmd .env vuepress dev src",
     "build": "env-cmd .env vuepress build src",
-    "commit": "git-cz",
     "gh-pages": "yarn build && gh-pages -d dist -b master"
   },
   "devDependencies": {
