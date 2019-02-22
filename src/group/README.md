@@ -34,22 +34,26 @@ Discord 擁有多頻道的特性，並且使用單一帳號，更支援語音及
 
    因爲軟體相關，經常需要使用 code block 分享原始碼，而 Slack, Discord, Teams, Rocket Chat 擁有這樣的設計(Slack 必須使用 Snippet 才有 Syntax Highlight)。
 
-5. 單一帳號
+5. 歷史訊息
+
+   Line 是將歷史訊息存放於 Client，常導致新進成員無法瀏覽或查詢歷史訊息，Android 版長期使用更會造成空間占用無法清除且媒體開啟速度緩慢等問題。
+
+6. 單一帳號
 
    Discord 不像 Slack 每個 Server 都使用獨立帳號，您可以使用單一帳號參與其他 Server 的討論，同時開啟速度通常也較快速，我們也認為這樣的方式更適合開放的社群。
 
-6. 免費
+7. 免費
 
    在免費的情況下，Discord 並不像 Slack 有 10000 則歷史訊息的限制。
 
-7. 整合
+8. 整合
 
    Discord 有相當完整的整合生態，有 bot 和 webhook，甚至可以直接套用許多成熟的 3rd party bot 讓交流體驗更豐富。
 
-8. 跨平台
+9. 跨平台
 
    Slack, Discord, Teams, Rocket Chat 都同時支援 desktop, mobile 及 web；而 Line 沒有 Web 版，並且 Android 平板 App 無法與手機多開。
 
-9. Discord 比較潮
+10. Discord 比較潮
 
 我們認為其中第 1, 2 點是造成現今技術群組過多且雜的主因。每個平台都有各自的優缺點，然而以上是我們選擇 Discord 的原因，我們也非常歡迎並殷切期望其他社群的朋友也加入我們！
