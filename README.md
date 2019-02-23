@@ -1,5 +1,7 @@
 # 《蔣幹話軟體》官方網站
 
+![Travis CI](https://travis-ci.com/ganhuaking/ganhuaking.github.io.svg?branch=dev)
+
 👉 <https://ganhuaking.github.io>
 
 <!-- markdownlint-disable MD033 -->
