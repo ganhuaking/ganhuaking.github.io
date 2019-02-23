@@ -26,7 +26,9 @@ export default {
     const res = await fetch(
       "https://cdn.jsdelivr.net/gh/discordapp/discord-open-source/communities.json"
     );
-    this.repos = (await res.json()).data;
+    this.repos = (await res.json()).data.sort((a, b) =>
+      a.title.localeCompare(b.title)
+    );
   }
 };
 </script>
