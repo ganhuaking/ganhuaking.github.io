@@ -67,14 +67,16 @@ Discord 擁有多頻道的特性，並且使用單一帳號，更支援語音及
 | 人數上限 | [N/A](https://discordia.me/server-limits) | N/A | N/A | 500 | [100,000](https://telegram.org/blog/admin-revolution) |
 | 頻道功能（註一） | ✔（封閉） | ✔（開放） | ✔（封閉） | ✖ | ✖ |
 | 登入帳號（註二） | 單一帳號 | 帳號 by workspace | 帳號 by workspace | 單一帳號 | 單一帳號 |
-| 權限管理 | 完整 | 普通 | 完整 | 弱 | 弱 |
+| 權限管理 | 完整 | 普通 | 完整 | 無 | 弱 |
 | 線上歷史訊息 | 有 | 10k | 有 | 無 | 無 |
 | 片斷程式碼分享（註三） | Syntax highlight | Syntax highlight（使用 Snippet） | Code block | 無 | Code block |
 | 回覆訊息功能 | 無 | 有（使用 share / thread） | 有 | 有 | 有 |
-| 平台支援 | 全平台 | 全平台 | 僅 Desktop 與 App | 僅 Desktop 與 App | 全平台 |  
+| 平台支援 | 全平台 | 全平台 | 全平台 | 僅 Desktop 與 App（註四） | 全平台 |  
 
 > 註一：封閉意指建立或加入頻道需要有權限的角色執行、開放意指任何人都能執行。兩種方法各有它們有優缺點，是雙面刃。
 >
 > 註二：單一帳號指一個帳號可以加入多種群組；反之，如 slack 則是需要用多種帳號加入。
 >
 > 註三：*Code block* 是等寬字、 *Syntax highlight* 代表等寬加高亮。
+>
+> 註四：有功能閹割版的 [Chrome Extension](https://chrome.google.com/webstore/detail/line/ophjlpahpchlmihnnnihgmmeilfjmjjc?hl=zh-TW) 可以用，但遠不如 Desktop / App 版好用。
