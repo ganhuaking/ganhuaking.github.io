@@ -57,3 +57,24 @@ Discord 擁有多頻道的特性，並且使用單一帳號，更支援語音及
 10. Discord 比較潮
 
 我們認為其中第 1, 2 點是造成現今技術群組過多且雜的主因。每個平台都有各自的優缺點，然而以上是我們選擇 Discord 的原因，我們也非常歡迎並殷切期望其他社群的朋友也加入我們！
+
+#### 比較表
+
+> 對開放社群而言，使用免費的 SaaS 服務比較能維持，因此不考慮自架服務與付費服務
+
+| 功能 | Discord | Slack | Teams | Line | Telegram |  
+| --- | --- | --- | --- | --- | --- |  
+| 人數上限 | [N/A](https://discordia.me/server-limits) | N/A | N/A | 500 | [100,000](https://telegram.org/blog/admin-revolution) |
+| 頻道功能（註一） | ✔（封閉） | ✔（開放） | ✔（封閉） | ✖ | ✖ |
+| 登入帳號（註二） | 單一帳號 | 帳號 by workspace | 帳號 by workspace | 單一帳號 | 單一帳號 |
+| 權限管理 | 完整 | 普通 | 完整 | 弱 | 弱 |
+| 線上歷史訊息 | 有 | 10k | 有 | 無 | 無 |
+| 片斷程式碼分享（註三） | Syntax highlight | Syntax highlight（使用 Snippet） | Code block | 無 | Code block |
+| 回覆訊息功能 | 無 | 有（使用 share / thread） | 有 | 有 | 有 |
+| 平台支援 | 全平台 | 全平台 | 僅 Desktop 與 App | 僅 Desktop 與 App | 全平台 |  
+
+> 註一：封閉意指建立或加入頻道需要有權限的角色執行、開放意指任何人都能執行。兩種方法各有它們有優缺點，是雙面刃。
+>
+> 註二：單一帳號指一個帳號可以加入多種群組；反之，如 slack 則是需要用多種帳號加入。
+>
+> 註三：*Code block* 是等寬字、 *Syntax highlight* 代表等寬加高亮。
