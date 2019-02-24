@@ -2,8 +2,8 @@
 home: true
 heroImage: /logo.png
 heroText: 蔣幹話軟體
-tagline: 軟體蔣幹話
-actionText: 準備開講 →
+tagline: 台灣開發者的綜合型 Discord Server
+actionText: 社群介紹
 actionLink: /group/
 features:
   - title: 幹話開講
@@ -14,3 +14,9 @@ features:
     details: 強大陣容呼朋引伴，無論是實體研討會或是線上讀書會，技術分享到轉貼文章，熱愛分享的人通通在這裡！
     footer: MIT Licensed | Copyright © 2019-present ganhuaking@github
 ---
+
+<!-- markdownlint-disable MD033 -->
+
+<iframe src="https://discordapp.com/widget?id=546392426122575874&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0"></iframe>
+
+<!-- markdownlint-enable -->
