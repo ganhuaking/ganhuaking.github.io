@@ -11,6 +11,7 @@ module.exports = {
     ],
     repo: "ganhuaking/ganhuaking.github.io",
     repoLabel: "GitHub",
+    docsBranch: "dev/src",
     editLinks: true,
     editLinkText: "優化這個頁面"
   }
