@@ -16,20 +16,20 @@
 
 <script>
 export default {
-  name: "DiscordOpenSource",
+  name: 'DiscordOpenSource',
   data() {
     return {
-      repos: null
+      repos: null,
     };
   },
   async mounted() {
     const res = await fetch(
-      "https://cdn.jsdelivr.net/gh/discordapp/discord-open-source/communities.json"
+      'https://cdn.jsdelivr.net/gh/discordapp/discord-open-source/communities.json'
     );
     this.repos = (await res.json()).data.sort((a, b) =>
       a.title.localeCompare(b.title)
     );
-  }
+  },
 };
 </script>
 
