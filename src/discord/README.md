@@ -77,6 +77,19 @@ Webhook 可以依事件觸發在 channel 自動發佈訊息，如：GitHub webho
 
 👉 [Intro to Webhooks](https://support.discordapp.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
 
+##### 目前已訂閱的 Twitter
+
+_使用 [IFTTT](https://ifttt.com/)_
+
+- [angular](https://twitter.com/angular)
+- [Docker](https://twitter.com/Docker)
+- [github](https://twitter.com/github)
+- [gitlab](https://twitter.com/gitlab)
+- [kubernetesio](https://twitter.com/kubernetesio)
+- [laravelphp](https://twitter.com/laravelphp)
+- [reactjs](https://twitter.com/reactjs)
+- [vuejs](https://twitter.com/vuejs)
+
 ### 程式人必備擴充套件
 
 Discord 的 [Rich Presence](https://discordapp.com/rich-presence) 可以顯示您正在玩的遊戲資訊，身為程式人也不遑多讓來個武力展示：
