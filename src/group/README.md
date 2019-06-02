@@ -73,7 +73,7 @@ Discord 擁有多頻道的特性，並且使用單一帳號，更支援語音及
 | 登入帳號（註二）       | 單一帳號                                  | 帳號 by workspace                | 單一帳號，可使用 exchange | 單一帳號                  | 單一帳號                                              |
 | 權限管理               | 完整                                      | 普通                             | 完整                      | 無                        | 弱                                                    |
 | 線上歷史訊息           | 有                                        | 10k                              | 有                        | 無                        | 無                                                    |
-| 片斷程式碼分享（註三） | Syntax highlight                          | Syntax highlight（使用 Snippet） | Code block                | 無                        | Code block                                            |
+| 片斷程式碼分享（註三） | Syntax highlight                          | Syntax highlight（使用 Snippet） | Code block                | Code block(Desktop only)  | Code block                                            |
 | 回覆訊息功能           | 無                                        | 有（使用 share / thread）        | 有                        | 有                        | 有                                                    |
 | 平台支援               | 全平台                                    | 全平台                           | 全平台                    | 僅 Desktop 與 App（註四） | 全平台                                                |
 
