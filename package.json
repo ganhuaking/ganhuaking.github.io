@@ -5,17 +5,18 @@
     "build": "vuepress build src"
   },
   "devDependencies": {
-    "@vue/eslint-config-prettier": "^4.0.1",
-    "eslint": "^6.0.1",
-    "eslint-plugin-vue": "^5.2.3",
-    "husky": "^3.0.0",
-    "lint-staged": "^9.2.0",
-    "node-sass": "^4.12.0",
+    "@vue/eslint-config-prettier": "^5.0.0",
+    "eslint": "^6.6.0",
+    "eslint-plugin-vue": "^6.0.0",
+    "husky": "^3.0.9",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "lint-staged": "^9.4.2",
     "prettier": "^1.18.2",
-    "pug": "^2.0.4",
-    "pug-plain-loader": "^1.0.0",
-    "sass-loader": "^7.1.0",
-    "vuepress": "^1.0.2"
+    "vuepress": "^1.2.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2"
   },
   "husky": {
     "hooks": {
@@ -27,8 +28,5 @@
       "prettier --write",
       "git add"
     ]
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.9.0"
   }
 }

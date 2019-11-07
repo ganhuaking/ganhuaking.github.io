@@ -1,10 +1,24 @@
-<template lang="pug">
-router-link.nav-link(:to='link', v-if='!isExternal(link)', :exact='exact') {{ item.text }}
-a.nav-link.external(v-else='', :href='link', :target="isMailto(link) || isTel(link) ? null : '_blank'", :rel="isMailto(link) || isTel(link) ? null : 'noopener noreferrer'")
-  template(v-if="icons[item.text]")
-    img.my-icon(:alt="item.text" :src="icons[item.text]")
-  | {{ item.text }}
-  OutboundLink
+<template>
+  <router-link
+    class="nav-link"
+    :to="link"
+    v-if="!isExternal(link)"
+    :exact="exact"
+    >{{ item.text }}</router-link
+  >
+  <a
+    class="nav-link external"
+    v-else=""
+    :href="link"
+    :target="isMailto(link) || isTel(link) ? null : '_blank'"
+    :rel="isMailto(link) || isTel(link) ? null : 'noopener noreferrer'"
+  >
+    <template v-if="icons[item.text]">
+      <img class="my-icon" :alt="item.text" :src="icons[item.text]" />
+    </template>
+    {{ item.text }}
+    <OutboundLink />
+  </a>
 </template>
 
 <script>
@@ -57,13 +71,15 @@ export default {
 };
 </script>
 
-<style lang="sass" scoped>
-.my-icon
-  width: 1em
-  transform: scale(1.5)
-  margin: 0 0.5em
+<style lang="less" scoped>
+.my-icon {
+  width: 1em;
+  transform: scale(1.5);
+  margin: 0 0.5em;
+}
 
-.nav-link
-  display: inline-flex
-  align-items: center
+.nav-link {
+  display: inline-flex;
+  align-items: center;
+}
 </style>

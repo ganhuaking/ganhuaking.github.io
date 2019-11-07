@@ -1,17 +1,21 @@
-<template lang="pug">
-  .repos(v-if="repos")
-    a.repo(
+<template>
+  <div class="repos" v-if="repos">
+    <a
+      class="repo"
       v-for="repo in repos"
       :key="repo.title"
       :href="`https://discordapp.com/invite/${repo.inviteCode}`"
       target="_blank"
       rel="noopener noreferrer"
-    )
-      img.logo(
-        :src="`https://cdn.jsdelivr.net/gh/discordapp/discord-open-source/logos/${repo.logo}`"
+      ><img
+        class="logo"
+        :src="
+          `https://cdn.jsdelivr.net/gh/discordapp/discord-open-source/logos/${repo.logo}`
+        "
         :alt="repo.title"
-      )
-      | {{repo.title}}
+      />{{ repo.title }}</a
+    >
+  </div>
 </template>
 
 <script>
@@ -33,20 +37,25 @@ export default {
 };
 </script>
 
-<style lang="sass" scoped>
-.repos
-  display: flex
-  flex-wrap: wrap
-.repo
-  display: flex
-  flex-direction: row
-  justify-content: center
-  align-items: center
-  margin: 8px
-.logo
-  filter: grayscale(100%) brightness(0%)
-  --size: 24px
-  height: var(--size)
-  width: var(--size)
-  margin-right: 8px
+<style lang="less" scoped>
+.repos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.repo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+
+.logo {
+  filter: grayscale(100%) brightness(0%);
+  --size: 24px;
+  height: var(--size);
+  width: var(--size);
+  margin-right: 8px;
+}
 </style>
