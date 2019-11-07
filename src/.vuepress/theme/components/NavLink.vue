@@ -73,7 +73,7 @@ export default {
 
 <style lang="less" scoped>
 .my-icon {
-  width: 1em;
+  height: 1em;
   transform: scale(1.5);
   margin: 0 0.5em;
 }
