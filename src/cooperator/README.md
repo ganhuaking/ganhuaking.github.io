@@ -2,16 +2,6 @@
 
 我們歡迎其他社群與我們合作，也歡迎各路好手或是喜歡寫程式的同好加入我們。
 
-## I Made This
-
-您有作品想和講幹話軟體的大家分享嗎？歡迎發 PR 給我們或是到 [`#快…快來玩壞我吧`](https://discord.gg/qaHBv6D) 頻道分享並告知版主群呦。
-
----
-
-> _目前為空，快來發 PR_
-
----
-
 ## Facebook 社群
 
 這些是我們整理的 facebook 社群清單，歡迎大家一起維護這個列表：
@@ -78,5 +68,3 @@
 - [讓 JavaScript 也能《深度學習》！](https://www.facebook.com/groups/jsdeeplearning/)
 - [高雄前端社群](https://www.facebook.com/groups/358503154261390/)
 - [黑暗執行緒的 ThreadPool](https://www.facebook.com/groups/darkthread/)
-
----
