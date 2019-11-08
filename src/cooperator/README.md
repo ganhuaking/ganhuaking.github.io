@@ -68,3 +68,7 @@
 - [讓 JavaScript 也能《深度學習》！](https://www.facebook.com/groups/jsdeeplearning/)
 - [高雄前端社群](https://www.facebook.com/groups/358503154261390/)
 - [黑暗執行緒的 ThreadPool](https://www.facebook.com/groups/darkthread/)
+
+## Telegram 群組
+
+[Telegram 資訊相關 群組清單](https://hackmd.io/@barneybook/HyzZYeCiz) by [barneybook](https://github.com/barneybook)
