@@ -5,14 +5,14 @@
     "build": "vuepress build src"
   },
   "devDependencies": {
-    "@vue/eslint-config-prettier": "^5.0.0",
-    "eslint": "^6.6.0",
-    "eslint-plugin-vue": "^6.0.0",
-    "husky": "^3.0.9",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.0.1",
+    "husky": "^3.1.0",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
-    "lint-staged": "^9.4.2",
-    "prettier": "^1.18.2",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1",
     "vuepress": "^1.2.0"
   },
   "dependencies": {
