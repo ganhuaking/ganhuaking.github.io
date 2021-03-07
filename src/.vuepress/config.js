@@ -8,6 +8,10 @@ module.exports = {
         text: '風雲榜',
         link: 'https://mee6.xyz/leaderboard/546392426122575874',
       },
+      {
+        text: 'Facebook',
+        link: 'https://www.facebook.com/GanHuaKingSoftware',
+      },
       { text: 'Discord', link: 'https://discord.gg/CzmVQjN' },
       {
         text: 'GitHub',

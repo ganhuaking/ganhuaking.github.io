@@ -8,7 +8,7 @@
   >
   <a
     class="nav-link external"
-    v-else=""
+    v-else
     :href="link"
     :target="isMailto(link) || isTel(link) ? null : '_blank'"
     :rel="isMailto(link) || isTel(link) ? null : 'noopener noreferrer'"
@@ -31,6 +31,7 @@ import {
 import trophyIcon from '@fortawesome/fontawesome-free/svgs/solid/trophy.svg';
 import discordIcon from '@fortawesome/fontawesome-free/svgs/brands/discord.svg';
 import githubIcon from '@fortawesome/fontawesome-free/svgs/brands/github.svg';
+import facebookIcon from '@fortawesome/fontawesome-free/svgs/brands/facebook.svg';
 
 export default {
   data() {
@@ -39,6 +40,7 @@ export default {
         風雲榜: trophyIcon,
         Discord: discordIcon,
         GitHub: githubIcon,
+        Facebook: facebookIcon,
       },
     };
   },
@@ -56,7 +58,7 @@ export default {
     exact() {
       if (this.$site.locales) {
         return Object.keys(this.$site.locales).some(
-          rootLink => rootLink === this.link
+          (rootLink) => rootLink === this.link
         );
       }
       return this.link === '/';
