@@ -1,32 +1,27 @@
 {
   "private": true,
   "scripts": {
+    "build": "vuepress build src",
     "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "preinstall": "pnpx only-allow pnpm"
   },
-  "devDependencies": {
-    "@vue/eslint-config-prettier": "^6.0.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.0.1",
-    "husky": "^3.1.0",
-    "less": "^3.10.3",
-    "less-loader": "^5.0.0",
-    "lint-staged": "^9.5.0",
-    "prettier": "^1.19.1",
-    "vuepress": "^1.2.0"
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx,json,html,htm,vue,css,less,scss,sass,md,mdx,yaml,yml}": [
-      "prettier --write",
-      "git add"
-    ]
+  "devDependencies": {
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "eslint": "^7.21.0",
+    "eslint-plugin-vue": "^7.7.0",
+    "husky": "^5.1.3",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0",
+    "vuepress": "^1.2.0"
   }
 }

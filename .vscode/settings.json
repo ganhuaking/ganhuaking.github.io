@@ -1,8 +1,11 @@
 {
-  "eslint.enable": true,
-  "eslint.autoFixOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "files.eol": "\n",
-  "files.trimFinalNewlines": true,
-  "files.insertFinalNewline": true
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true
 }
