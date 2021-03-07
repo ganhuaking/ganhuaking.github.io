@@ -81,14 +81,16 @@ Webhook 可以依事件觸發在 channel 自動發佈訊息，如：GitHub webho
 
 _使用 [IFTTT](https://ifttt.com/)_
 
-- [angular](https://twitter.com/angular)
+- ~~[angular](https://twitter.com/angular)~~
 - [Docker](https://twitter.com/Docker)
 - [github](https://twitter.com/github)
-- [gitlab](https://twitter.com/gitlab)
-- [kubernetesio](https://twitter.com/kubernetesio)
-- [laravelphp](https://twitter.com/laravelphp)
-- [reactjs](https://twitter.com/reactjs)
-- [vuejs](https://twitter.com/vuejs)
+- ~~[gitlab](https://twitter.com/gitlab)~~
+- ~~[kubernetesio](https://twitter.com/kubernetesio)~~
+- ~~[laravelphp](https://twitter.com/laravelphp)~~
+- ~~[reactjs](https://twitter.com/reactjs)~~
+- ~~[vuejs](https://twitter.com/vuejs)~~
+
+<span style="color: #FF4136;">_因 IFTTT 免費內容變更僅能使用最多 3 個訂閱事件_</span>
 
 ### 程式人必備擴充套件
 
