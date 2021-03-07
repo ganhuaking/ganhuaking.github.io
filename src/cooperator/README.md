@@ -11,6 +11,7 @@
 - [AppDC 台灣 App 開發者社群](https://www.facebook.com/groups/appdc/)
 - [AWS User Group Taiwan](https://www.facebook.com/groups/awsugtw/)
 - [Backend 台灣 (Backend Tw)](https://www.facebook.com/groups/616369245163622/)
+- [Backend.tw (友善版)](https://www.facebook.com/groups/819577128464471)
 - [Chatbot Developers Taiwan](https://www.facebook.com/groups/chatbot.tw/)
 - [DevOps Taiwan](https://www.facebook.com/groups/DevOpsTaiwan/)
 - [docker 線上讀書會](https://www.facebook.com/groups/750311598438135/)
