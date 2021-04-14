@@ -1,25 +1,14 @@
 {
+  "extends": "@tsconfig/docusaurus/tsconfig.json",
+  "include": ["src/", "docusaurus.config.js"],
   "compilerOptions": {
-    "target": "esnext",
-    "declaration": true,
-    "esModuleInterop": true,
-    "pretty": true,
-    "moduleResolution": "node",
-    "lib": ["es2015", "es2016.array.include"],
-    "allowSyntheticDefaultImports": true,
-    "stripInternal": true,
-    "noImplicitAny": false,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "resolveJsonModule": true,
-    "strictNullChecks": true,
-    "strictFunctionTypes": true,
-    "alwaysStrict": true,
-    "module": "commonjs",
-    "outDir": "lib",
-    "typeRoots": ["node_modules/@types"]
-  },
-  "exclude": ["node_modules", "**/*.spec.ts"]
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin",
+        "lint": {
+          "validProperties": ["label"]
+        }
+      }
+    ]
+  }
 }

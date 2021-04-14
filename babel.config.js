@@ -1,3 +1,3 @@
 module.exports = {
-  presets: ['@vue/app'],
+  presets: [require.resolve("@docusaurus/core/lib/babel/preset")],
 };

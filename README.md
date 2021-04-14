@@ -4,13 +4,9 @@
 
 Official Site 👉 <https://ganhuaking.github.io>
 
-Facebook Page 👉 <https://www.facebook.com/GanHuaKingSoftware>
-
-<!-- markdownlint-disable MD033 -->
+Facebook Page 👉 <https://fb.me/GanHuaKingSoftware>
 
 [<img alt="蔣幹話軟體 Discord" src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg" width="240" />](https://discord.gg/CzmVQjN)
-
-<!-- markdownlint-enable -->
 
 ## Contribute Guide
 
@@ -22,11 +18,11 @@ Requirement:
 Install dependencies:
 
 ```sh
-pnpm install
+pnpm i
 ```
 
 Run development server:
 
 ```sh
-pnpm run dev
+pnpm run start
 ```

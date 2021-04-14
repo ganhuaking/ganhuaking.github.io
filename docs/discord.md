@@ -1,4 +1,7 @@
-# Discord 介紹
+---
+title: Discord 介紹
+description: Discord 是一個通訊服務。它直接提供了三種不一樣的通訊功能。
+---
 
 Discord 是一個通訊服務。它直接提供了三種不一樣的通訊功能：
 
@@ -90,7 +93,9 @@ _使用 [IFTTT](https://ifttt.com/)_
 - ~~[reactjs](https://twitter.com/reactjs)~~
 - ~~[vuejs](https://twitter.com/vuejs)~~
 
-<span style="color: #FF4136;">_因 IFTTT 免費內容變更僅能使用最多 3 個訂閱事件_</span>
+:::caution
+因 IFTTT 免費內容變更僅能使用最多 3 個訂閱事件
+:::
 
 ### 程式人必備擴充套件
 
@@ -110,7 +115,9 @@ Discord 對開源專案十分友善，若您擁有熱門的開源專案，官方
 
 [快來看看有哪些 open source repository 也使用 discord](https://discordapp.com/open-source)
 
-<DiscordOpenSource />
+import OpenSource from '@site/src/components/discord/OpenSource';
+
+<OpenSource />
 
 [line]: https://line.me/
 [telegram]: https://telegram.org/

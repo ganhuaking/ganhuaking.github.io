@@ -1,4 +1,9 @@
-/dist
+# Production
+/build
+
+# Generated files
+.docusaurus
+.cache-loader
 
 .vscode/*
 !.vscode/settings.json
