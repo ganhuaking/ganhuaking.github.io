@@ -2,7 +2,7 @@
 module.exports = {
   title: "蔣幹話軟體",
   tagline: "台灣開發者的綜合型 Discord Server",
-  url: "https://ganhuaking.tw/",
+  url: "https://ganhuaking.tw",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -10,6 +10,7 @@ module.exports = {
   organizationName: "ganhuaking", // Usually your GitHub org/user name.
   projectName: "ganhuaking.github.io", // Usually your repo name.
   themeConfig: {
+    image: "img/og_image.png",
     navbar: {
       title: "蔣幹話軟體",
       logo: {
