@@ -12,8 +12,8 @@ Facebook Page 👉 <https://fb.me/GanHuaKingSoftware>
 
 Requirement:
 
-- [node](https://nodejs.org/): `^15.11.0`
-- [pnpm](https://pnpm.js.org/): `^5.18.3`
+- [node](https://nodejs.org/): `^16.0.0`
+- [pnpm](https://pnpm.js.org/): `^6.0.2`
 
 Install dependencies:
 
