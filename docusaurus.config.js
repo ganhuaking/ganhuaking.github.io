@@ -11,6 +11,10 @@ module.exports = {
   projectName: "ganhuaking.github.io", // Usually your repo name.
   themeConfig: {
     image: "img/og_image.png",
+    colorMode: {
+      defaultMode: "dark",
+      respectPrefersColorScheme: true,
+    },
     navbar: {
       title: "蔣幹話軟體",
       logo: {
