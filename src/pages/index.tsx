@@ -5,12 +5,39 @@ import { css, cx } from "@emotion/css";
 import Layout from "@theme/Layout";
 import React, { ReactNode } from "react";
 
+const cssTitle = css`
+  label: Title;
+  color: var(--ifm-color-primary);
+`;
+
+const cssSubtitle = css`
+  label: Subtitle;
+  color: var(--ifm-color-primary);
+`;
+
+const cssButton = css`
+  label: Button;
+  color: #ffdc00;
+  background-color: #3d9970;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  &:hover,
+  &:focus {
+    outline: none;
+    color: #ffff53;
+    background-color: #6fca9e;
+    text-decoration: none;
+  }
+`;
+
 const cssHeroBanner = css`
   label: HeroBanner;
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-color: #ffdc00;
+  --ifm-color-primary: #b10dc9;
   @media screen and (max-width: 966px) {
     padding: 2rem;
   }
@@ -112,11 +139,13 @@ export default function Home() {
     >
       <header className={cx("hero hero--primary", cssHeroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <h1 className={cx("hero__title", cssTitle)}>{siteConfig.title}</h1>
+          <p className={cx("hero__subtitle", cssSubtitle)}>
+            {siteConfig.tagline}
+          </p>
           <div className={cssButtons}>
             <Link
-              className="button button--outline button--lg"
+              className={cx("button button--outline button--lg", cssButton)}
               to={useBaseUrl("docs/")}
             >
               社群介紹
