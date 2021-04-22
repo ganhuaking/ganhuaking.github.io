@@ -41,3 +41,13 @@ p {
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+html[data-theme="dark"] {
+  --ifm-color-primary: #e754fd;
+  --ifm-color-primary-dark: #d946f0;
+  --ifm-color-primary-darker: #c42edc;
+  --ifm-color-primary-darkest: #b00cc8;
+  --ifm-color-primary-light: #ee62fd;
+  --ifm-color-primary-lighter: #f776fe;
+  --ifm-color-primary-lightest: #ff89ff;
+}
