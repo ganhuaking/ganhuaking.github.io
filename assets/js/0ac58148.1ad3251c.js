@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{72:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u8523\u5e79\u8a71\u8edf\u9ad4 2.0","permalink":"/blog/2021/04/15/ghk2_0"}]}')}}]);
