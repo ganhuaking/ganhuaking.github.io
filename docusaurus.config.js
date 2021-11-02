@@ -113,4 +113,15 @@ module.exports = {
       },
     ],
   ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'meetups',
+        path: 'meetups',
+        routeBasePath: 'meetups',
+        sidebarPath: require.resolve('./sidebarsMeetups.js'),
+      },
+    ],
+  ],
 };
