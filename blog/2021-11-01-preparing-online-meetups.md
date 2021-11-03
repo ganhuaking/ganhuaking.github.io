@@ -11,6 +11,6 @@ tags: [Meetups]
 
 首先會由 Miles 在 11/4 晚上 22:00 來跟大家做一次 Docker 的初體驗。如果想從頭學習 Docker 的話，歡迎一起來參加線上分享會哦！
 
-這次也是個嘗試－－來一起做 Discord 線上直播分享。
+這次也是個嘗試－－來一起做 [Discord](https://discord.io/ganhuaking) 線上直播分享。
 
 > 工程師都很懶，所以隔了半年，總算有了更新。
