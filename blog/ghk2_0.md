@@ -1,5 +1,6 @@
 ---
 title: 蔣幹話軟體 2.0
+date: 2021-04-15
 description: 我們來到了蔣幹話軟體 2.0!
 authors: [ViPro]
 tags: [蔣幹話軟體]

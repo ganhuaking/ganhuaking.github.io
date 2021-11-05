@@ -1,8 +1,11 @@
 ---
 title: 線上分享會準備開始
+date: 2021-11-01
 description: 我們建立了 GitHub Discussions，預計會在上面和官網 blog 這裡發布線上分享資訊。
 authors: [Miles]
-tags: [Meetups]
+tags:
+- Meetups
+- 幹話#1
 ---
 
 我們建立了 [GitHub Discussions](https://github.com/ganhuaking/ganhuaking.github.io/discussions)，預計會在上面和官網 blog 這裡發布線上分享資訊。
