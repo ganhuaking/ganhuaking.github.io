@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkganhuaking_github_io=self.webpackChunkganhuaking_github_io||[]).push([[143],{3715:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/\u5e79\u8a71-3","name":"\u5e79\u8a71#3","count":1,"permalink":"/blog/tags/\u5e79\u8a71-3"}')}}]);
