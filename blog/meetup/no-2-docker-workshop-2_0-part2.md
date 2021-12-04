@@ -12,7 +12,7 @@ tags:
 
 <!--truncate-->
 
-延續[前一次](docker-workshop-2_0-part1.md)的 port forwarding 內容，這次主要講 Volume 的 bind mount 和 Network 功能，並且說明了其中一種 Docker container 應用情境。
+延續[前一次](no-1-docker-workshop-2_0-part1.md)的 port forwarding 內容，這次主要講 Volume 的 bind mount 和 Network 功能，並且說明了其中一種 Docker container 應用情境。
 
 其中有討論到一個資安問題－－如果我們想把兩個 container 放在同一個 network 裡，但想讓其中一個 container 看不到另一個，該怎麼辦？
 
