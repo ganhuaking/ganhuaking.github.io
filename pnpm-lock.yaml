@@ -4,6 +4,7 @@ specifiers:
   '@docusaurus/core': 2.0.0-beta.13
   '@docusaurus/module-type-aliases': 2.0.0-beta.13
   '@docusaurus/plugin-content-docs': 2.0.0-beta.13
+  '@docusaurus/plugin-google-analytics': ^2.0.0-beta.13
   '@docusaurus/preset-classic': 2.0.0-beta.13
   '@emotion/css': ^11.5.0
   '@mdx-js/react': ^1.6.22
@@ -21,6 +22,7 @@ specifiers:
 dependencies:
   '@docusaurus/core': 2.0.0-beta.13_c0e3f8f796195cf2fcbbf0228b8a15ff
   '@docusaurus/plugin-content-docs': 2.0.0-beta.13_c0e3f8f796195cf2fcbbf0228b8a15ff
+  '@docusaurus/plugin-google-analytics': 2.0.0-beta.13_c0e3f8f796195cf2fcbbf0228b8a15ff
   '@docusaurus/preset-classic': 2.0.0-beta.13_456603a9b710afbf8a4faf36058cd065
   '@emotion/css': 11.5.0
   '@mdx-js/react': 1.6.22_react@17.0.2

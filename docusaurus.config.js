@@ -110,17 +110,21 @@ module.exports = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+        googleAnalytics: {
+          trackingID: "G-WFM5PCYSYZ",
+          anonymizeIP: true,
+        },
       },
     ],
   ],
   plugins: [
     [
-      '@docusaurus/plugin-content-docs',
+      "@docusaurus/plugin-content-docs",
       {
-        id: 'meetups',
-        path: 'meetups',
-        routeBasePath: 'meetups',
-        sidebarPath: require.resolve('./sidebarsMeetups.js'),
+        id: "meetups",
+        path: "meetups",
+        routeBasePath: "meetups",
+        sidebarPath: require.resolve("./sidebarsMeetups.js"),
       },
     ],
   ],
