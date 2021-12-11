@@ -9,6 +9,10 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "ganhuaking", // Usually your GitHub org/user name.
   projectName: "ganhuaking.github.io", // Usually your repo name.
+  i18n: {
+    defaultLocale: "zh-Hant",
+    locales: ["zh-Hant"],
+  },
   themeConfig: {
     image: "img/og_image.png",
     colorMode: {
@@ -125,6 +129,12 @@ module.exports = {
         path: "meetups",
         routeBasePath: "meetups",
         sidebarPath: require.resolve("./sidebarsMeetups.js"),
+      },
+    ],
+    [
+      require.resolve("docusaurus-lunr-search"),
+      {
+        languages: ["zh"],
       },
     ],
   ],
