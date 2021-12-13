@@ -5,7 +5,6 @@ description: 11/4 首次在線上直播，這次的主題是 Docker。
 authors: [Miles]
 tags:
 - Meetups
-- 幹話#1
 ---
 
 11/4 首次在線上直播，這次的主題是 Docker。

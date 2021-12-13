@@ -5,7 +5,6 @@ description: 這次邀請了 Gson 分享了 NestJS。
 authors: [Miles]
 tags:
 - Meetups
-- 幹話#4
 ---
 
 這次邀請了 [Gson](https://github.com/yuanyu90221) 分享了 NestJS。

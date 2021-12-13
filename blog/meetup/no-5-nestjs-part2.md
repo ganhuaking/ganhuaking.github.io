@@ -5,7 +5,6 @@ description: NestJS 範例專案解析。
 authors: [Miles]
 tags:
 - Meetups
-- 幹話#5
 ---
 
 NestJS 範例專案解析。

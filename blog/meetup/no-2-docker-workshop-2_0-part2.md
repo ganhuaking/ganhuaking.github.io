@@ -5,7 +5,6 @@ description: 11/11 第二次的 Docker 閒聊。
 authors: [Miles]
 tags:
 - Meetups
-- 幹話#2
 ---
 
 11/11 第二次的 Docker 閒聊。

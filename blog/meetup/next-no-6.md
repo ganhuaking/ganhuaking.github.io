@@ -6,7 +6,6 @@ authors: [Miles]
 tags:
 - Meetups
 - 預告
-- 幹話#6
 ---
 
 雷大帶來的 Storage 介紹。

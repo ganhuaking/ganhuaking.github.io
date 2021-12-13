@@ -5,7 +5,6 @@ description: 遲來的 11/18 第三次的 Docker 閒聊，總算跑出 Dockercra
 authors: [Miles]
 tags:
 - Meetups
-- 幹話#3
 ---
 
 遲來的 11/18 第三次的 Docker 閒聊，總算跑出 Dockercraft 了。
