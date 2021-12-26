@@ -50,7 +50,7 @@
         <link href="https://ganhuaking.tw/blog/meetup/next-no-6"/>
         <updated>2021-12-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[雷大帶來的 Storage 介紹。]]></summary>
-        <content type="html"><![CDATA[<p>雷大帶來的 Storage 介紹。</p><p>Storage 也就是跟 <a href="https://github.com/ganhuaking/ganhuaking.github.io/discussions/24">Database</a> 相關的知識，將在下禮拜四由雷大分享。其中包含了儲存的技術差異，與適用場景等。麥小編也對 Storage 不熟，只有知道最通用的：memory 類的都是拿來做快取，像是 Redis 或 Memcached 之類的。</p><hr/><p>目前的分享模式其實很單純：原本是私人討論群，直接硬改成公開直播討論，讓其他人都能參與。</p><p>未來的分享模式，想做一些調整，以下是試想的內容，等下次 meetup 完再決定。</p><p>一個 meetup 會包含三個角色：</p><ul><li>預習者 - meetup 三天到一天內，用自己的角度了解主講者的內容，並寫出預告的內容上傳到此部落格</li><li>主講者 - 當天的主要分享者，方式不限，包含簡報或部落格等</li><li>心得者 - meetup 結束後，同樣用自己的角度寫出心得文</li></ul><p>會這樣調整主要是考慮到分享者與其他人之間的互動，希望能有好的結果。</p><p>有想分享的主題，歡迎來 <a href="https://discord.io/ganhuaking">Discord</a> 或 <a href="https://github.com/ganhuaking/ganhuaking.github.io/discussions">GitHub Discussions</a> 一起討論哦！</p>]]></content>
+        <content type="html"><![CDATA[<p>雷大帶來的 Storage 介紹。</p><p>Storage 也就是跟 <a href="https://github.com/ganhuaking/meetups/discussions/4">Database</a> 相關的知識，將在下禮拜四由雷大分享。其中包含了儲存的技術差異，與適用場景等。麥小編也對 Storage 不熟，只有知道最通用的：memory 類的都是拿來做快取，像是 Redis 或 Memcached 之類的。</p><hr/><p>目前的分享模式其實很單純：原本是私人討論群，直接硬改成公開直播討論，讓其他人都能參與。</p><p>未來的分享模式，想做一些調整，以下是試想的內容，等下次 meetup 完再決定。</p><p>一個 meetup 會包含三個角色：</p><ul><li>預習者 - meetup 三天到一天內，用自己的角度了解主講者的內容，並寫出預告的內容上傳到此部落格</li><li>主講者 - 當天的主要分享者，方式不限，包含簡報或部落格等</li><li>心得者 - meetup 結束後，同樣用自己的角度寫出心得文</li></ul><p>會這樣調整主要是考慮到分享者與其他人之間的互動，希望能有好的結果。</p><p>有想分享的主題，歡迎來 <a href="https://discord.io/ganhuaking">Discord</a> 或 <a href="https://github.com/ganhuaking/meetups/discussions">GitHub Discussions</a> 一起討論哦！</p>]]></content>
         <author>
             <name>Miles Chou</name>
             <uri>https://mileschou.github.io/</uri>
@@ -62,7 +62,7 @@
         <link href="https://ganhuaking.tw/blog/meetup/no-5-nestjs-part2"/>
         <updated>2021-12-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[NestJS 範例專案解析。]]></summary>
-        <content type="html"><![CDATA[<p>NestJS 範例專案解析。</p><p>延續<a href="no-4-nestjs-part1.md">上次</a>的 NestJS，這次 Gson 針對範例專案做了更詳細的說明。</p><p>麥小編不是 Node.js 的開發者，所以大多數內容並不清楚。但程式架構大多的是相通的，比方說依賴注入的綁定方法與 Laravel 相同，不過有發現範圍限制是不一樣的，NestJS 要設定限制注入的範圍，而 Laravel 則是完全不限制，所以可以在世界各地取得想要的物件。過去曾在 Slim Framework 看過類似的做法是用 <a href="https://www.runoob.com/design-pattern/service-locator-pattern.html">Service Locator</a>（感謝<a href="https://github.com/tedmax100">雷大</a>分享）來限制 Container 取得服務的範圍。</p><p>詳細筆記可以參考<a href="https://ganhuaruanti.github.io/nestjs-document/">傳送門</a>。</p><p>下一次將會由雷大分享 storage，未來形式也有可能會有調整，若有想分享的主題，歡迎來 <a href="https://discord.io/ganhuaking">Discord</a> 或 <a href="https://github.com/ganhuaking/ganhuaking.github.io/discussions">GitHub Discussions</a> 一起討論哦！</p>]]></content>
+        <content type="html"><![CDATA[<p>NestJS 範例專案解析。</p><p>延續<a href="no-4-nestjs-part1.md">上次</a>的 NestJS，這次 Gson 針對範例專案做了更詳細的說明。</p><p>麥小編不是 Node.js 的開發者，所以大多數內容並不清楚。但程式架構大多的是相通的，比方說依賴注入的綁定方法與 Laravel 相同，不過有發現範圍限制是不一樣的，NestJS 要設定限制注入的範圍，而 Laravel 則是完全不限制，所以可以在世界各地取得想要的物件。過去曾在 Slim Framework 看過類似的做法是用 <a href="https://www.runoob.com/design-pattern/service-locator-pattern.html">Service Locator</a>（感謝<a href="https://github.com/tedmax100">雷大</a>分享）來限制 Container 取得服務的範圍。</p><p>詳細筆記可以參考<a href="https://ganhuaruanti.github.io/nestjs-document/">傳送門</a>。</p><p>下一次將會由雷大分享 storage，未來形式也有可能會有調整，若有想分享的主題，歡迎來 <a href="https://discord.io/ganhuaking">Discord</a> 或 <a href="https://github.com/ganhuaking/meetups/discussions">GitHub Discussions</a> 一起討論哦！</p>]]></content>
         <author>
             <name>Miles Chou</name>
             <uri>https://mileschou.github.io/</uri>
@@ -74,7 +74,7 @@
         <link href="https://ganhuaking.tw/blog/meetup/no-4-nestjs-part1"/>
         <updated>2021-11-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[這次邀請了 Gson 分享了 NestJS。]]></summary>
-        <content type="html"><![CDATA[<p>這次邀請了 <a href="https://github.com/yuanyu90221">Gson</a> 分享了 NestJS。</p><p>這是一個 Node.js 的後端框架，它的特點是支援 <a href="https://www.typescriptlang.org/">TypeScript</a>。這個框架學習了 <a href="https://angular.io/">Angular</a> 的許多優點和特色，除了讓開發更方便外，也同時也能降低 Angular 開發者上手的難度。</p><p>詳細筆記可以參考<a href="https://ganhuaruanti.github.io/nestjs-document/">傳送門</a>。</p><p>下一次 Gson 會再說明 NestJS 範例專案其他細節，若有想分享的主題，歡迎來 <a href="https://discord.io/ganhuaking">Discord</a> 或 <a href="https://github.com/ganhuaking/ganhuaking.github.io/discussions">GitHub Discussions</a> 一起討論哦！</p>]]></content>
+        <content type="html"><![CDATA[<p>這次邀請了 <a href="https://github.com/yuanyu90221">Gson</a> 分享了 NestJS。</p><p>這是一個 Node.js 的後端框架，它的特點是支援 <a href="https://www.typescriptlang.org/">TypeScript</a>。這個框架學習了 <a href="https://angular.io/">Angular</a> 的許多優點和特色，除了讓開發更方便外，也同時也能降低 Angular 開發者上手的難度。</p><p>詳細筆記可以參考<a href="https://ganhuaruanti.github.io/nestjs-document/">傳送門</a>。</p><p>下一次 Gson 會再說明 NestJS 範例專案其他細節，若有想分享的主題，歡迎來 <a href="https://discord.io/ganhuaking">Discord</a> 或 <a href="https://github.com/ganhuaking/meetups/discussions">GitHub Discussions</a> 一起討論哦！</p>]]></content>
         <author>
             <name>Miles Chou</name>
             <uri>https://mileschou.github.io/</uri>
@@ -86,7 +86,7 @@
         <link href="https://ganhuaking.tw/blog/meetup/no-3-docker-workshop-2_0-part3"/>
         <updated>2021-11-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[遲來的 11/18 第三次的 Docker 閒聊，總算跑出 Dockercraft 了。]]></summary>
-        <content type="html"><![CDATA[<p>遲來的 11/18 第三次的 Docker 閒聊，總算跑出 Dockercraft 了。</p><p>再繼續<a href="no-2-docker-workshop-2_0-part2.md">前一次</a>的 network，這次講 Docker Compose 的相關應用，以及 demo <a href="https://github.com/docker/dockercraft">Dockercraft</a>。就經驗來說，如果想要跑 Dockercraft 的話，就需要花錢買 <a href="https://www.minecraft.net/">Minecraft</a>；使用 Lima 跑 Dockercraft 的話，會需要權限存取 host 的 docker.sock 檔，因此需要進入 Lima 並 sudo 成 root 權限才能正常執行。</p><p>下一次會由 Gson 來聊聊 <a href="https://nestjs.com/">NestJS</a>，若有想分享的主題，歡迎來 <a href="https://discord.io/ganhuaking">Discord</a> 或 <a href="https://github.com/ganhuaking/ganhuaking.github.io/discussions">GitHub Discussions</a> 一起討論哦！</p>]]></content>
+        <content type="html"><![CDATA[<p>遲來的 11/18 第三次的 Docker 閒聊，總算跑出 Dockercraft 了。</p><p>再繼續<a href="no-2-docker-workshop-2_0-part2.md">前一次</a>的 network，這次講 Docker Compose 的相關應用，以及 demo <a href="https://github.com/docker/dockercraft">Dockercraft</a>。就經驗來說，如果想要跑 Dockercraft 的話，就需要花錢買 <a href="https://www.minecraft.net/">Minecraft</a>；使用 Lima 跑 Dockercraft 的話，會需要權限存取 host 的 docker.sock 檔，因此需要進入 Lima 並 sudo 成 root 權限才能正常執行。</p><p>下一次會由 Gson 來聊聊 <a href="https://nestjs.com/">NestJS</a>，若有想分享的主題，歡迎來 <a href="https://discord.io/ganhuaking">Discord</a> 或 <a href="https://github.com/ganhuaking/meetups/discussions">GitHub Discussions</a> 一起討論哦！</p>]]></content>
         <author>
             <name>Miles Chou</name>
             <uri>https://mileschou.github.io/</uri>
@@ -98,7 +98,7 @@
         <link href="https://ganhuaking.tw/blog/meetup/no-2-docker-workshop-2_0-part2"/>
         <updated>2021-11-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[11/11 第二次的 Docker 閒聊。]]></summary>
-        <content type="html"><![CDATA[<p>11/11 第二次的 Docker 閒聊。</p><p>延續<a href="no-1-docker-workshop-2_0-part1.md">前一次</a>的 port forwarding 內容，這次主要講 Volume 的 bind mount 和 Network 功能，並且說明了其中一種 Docker container 應用情境。</p><p>其中有討論到一個資安問題－－如果我們想把兩個 container 放在同一個 network 裡，但想讓其中一個 container 看不到另一個，該怎麼辦？</p><p>最後討論的結果是使用 iptables，Docker 官方文件也有提到<a href="https://docs.docker.com/network/iptables/">相關的內容</a>，有興趣可以看文件了解。</p><p>本次加入兩個許願清單，分別為 NestJS 和 Design Pattern，若有想分享的主題，歡迎來 <a href="https://discord.io/ganhuaking">Discord</a> 或 <a href="https://github.com/ganhuaking/ganhuaking.github.io/discussions">GitHub Discussions</a> 一起討論哦！</p>]]></content>
+        <content type="html"><![CDATA[<p>11/11 第二次的 Docker 閒聊。</p><p>延續<a href="no-1-docker-workshop-2_0-part1.md">前一次</a>的 port forwarding 內容，這次主要講 Volume 的 bind mount 和 Network 功能，並且說明了其中一種 Docker container 應用情境。</p><p>其中有討論到一個資安問題－－如果我們想把兩個 container 放在同一個 network 裡，但想讓其中一個 container 看不到另一個，該怎麼辦？</p><p>最後討論的結果是使用 iptables，Docker 官方文件也有提到<a href="https://docs.docker.com/network/iptables/">相關的內容</a>，有興趣可以看文件了解。</p><p>本次加入兩個許願清單，分別為 NestJS 和 Design Pattern，若有想分享的主題，歡迎來 <a href="https://discord.io/ganhuaking">Discord</a> 或 <a href="https://github.com/ganhuaking/meetups/discussions">GitHub Discussions</a> 一起討論哦！</p>]]></content>
         <author>
             <name>Miles Chou</name>
             <uri>https://mileschou.github.io/</uri>
@@ -111,7 +111,7 @@
         <updated>2021-11-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[11/4 首次在線上直播，這次的主題是 Docker。]]></summary>
         <content type="html"><![CDATA[<p>11/4 首次在線上直播，這次的主題是 Docker。</p><p>身為主辦者，當然是私心使用 <a href="https://dockerbook.tw/">30 天與 Docker 做好朋友</a>作為分享教材。因為線上分享要看大家實作過程有困難，所以還是採用演講的方法來跟大家分享 Docker。</p><p>這次我們花了約一個小時，內容如下：</p><ol><li><code>docker run</code> 詳解，使用了 hello-world 和 busybox image 來說明 Docker的機制</li><li>介紹 port forwarding，了解 Container 的隔離特性</li></ol><p>另外原本預期要做 <a href="https://github.com/docker/dockercraft">Dockercraft</a> 來「具現化」Container，但因為不明原因失敗，後來有查到可能性原因如下：</p><p>因為當時使用 Lima ，裡面執行的 user 不是 root ，所以才會出現權限錯誤。</p><pre><code>FATA[0000] Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http://%2Fvar%2Frun%2Fdocker.sock/v1.30/info: dial unix /var/run/docker.sock: connect: permission denied
-</code></pre><p>後來是進 Lima VM，改用 sudo 解決。</p><p>後續出現的 Connection refused 則不確定是什麼原因，但推測是 docker.sock 權限有問題的關係，所以這段連線會一直被拒絕。改 sudo 和加上 --privileged 都不是完全有效（時好時壞），因此還不確定發生什麼問題。</p><p>若有什麼想跟我們分享的，歡迎來 <a href="https://discord.io/ganhuaking">Discord</a> 或 <a href="https://github.com/ganhuaking/ganhuaking.github.io/discussions">GitHub Discussions</a> 一起討論哦！</p>]]></content>
+</code></pre><p>後來是進 Lima VM，改用 sudo 解決。</p><p>後續出現的 Connection refused 則不確定是什麼原因，但推測是 docker.sock 權限有問題的關係，所以這段連線會一直被拒絕。改 sudo 和加上 --privileged 都不是完全有效（時好時壞），因此還不確定發生什麼問題。</p><p>若有什麼想跟我們分享的，歡迎來 <a href="https://discord.io/ganhuaking">Discord</a> 或 <a href="https://github.com/ganhuaking/meetups/discussions">GitHub Discussions</a> 一起討論哦！</p>]]></content>
         <author>
             <name>Miles Chou</name>
             <uri>https://mileschou.github.io/</uri>
@@ -123,7 +123,7 @@
         <link href="https://ganhuaking.tw/blog/preparing-online-meetups"/>
         <updated>2021-11-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[我們建立了 GitHub Discussions，預計會在上面和官網 blog 這裡發布線上分享資訊。]]></summary>
-        <content type="html"><![CDATA[<p>我們建立了 <a href="https://github.com/ganhuaking/ganhuaking.github.io/discussions">GitHub Discussions</a>，預計會在上面和官網 blog 這裡發布線上分享資訊。</p><p>首先會由 Miles 在 11/4 晚上 22:00 來跟大家做一次 Docker 的初體驗。如果想從頭學習 Docker 的話，歡迎一起來參加線上分享會哦！</p><p>這次也是個嘗試－－來一起做 <a href="https://discord.io/ganhuaking">Discord</a> 線上直播分享。</p><blockquote><p>工程師都很懶，所以隔了半年，總算有了更新。</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<p>我們建立了 <a href="https://github.com/ganhuaking/meetups/discussions">GitHub Discussions</a>，預計會在上面和官網 blog 這裡發布線上分享資訊。</p><p>首先會由 Miles 在 11/4 晚上 22:00 來跟大家做一次 Docker 的初體驗。如果想從頭學習 Docker 的話，歡迎一起來參加線上分享會哦！</p><p>這次也是個嘗試－－來一起做 <a href="https://discord.io/ganhuaking">Discord</a> 線上直播分享。</p><blockquote><p>工程師都很懶，所以隔了半年，總算有了更新。</p></blockquote>]]></content>
         <author>
             <name>Miles Chou</name>
             <uri>https://mileschou.github.io/</uri>
