@@ -30,4 +30,4 @@ FATA[0000] Got permission denied while trying to connect to the Docker daemon so
 
 後續出現的 Connection refused 則不確定是什麼原因，但推測是 docker.sock 權限有問題的關係，所以這段連線會一直被拒絕。改 sudo 和加上 --privileged 都不是完全有效（時好時壞），因此還不確定發生什麼問題。
 
-若有什麼想跟我們分享的，歡迎來 [Discord](https://discord.io/ganhuaking) 或 [GitHub Discussions](https://github.com/ganhuaking/ganhuaking.github.io/discussions) 一起討論哦！
+若有什麼想跟我們分享的，歡迎來 [Discord](https://discord.io/ganhuaking) 或 [GitHub Discussions](https://github.com/ganhuaking/meetups/discussions) 一起討論哦！

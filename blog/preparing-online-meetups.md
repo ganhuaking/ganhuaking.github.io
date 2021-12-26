@@ -8,7 +8,7 @@ tags:
 - 幹話#1
 ---
 
-我們建立了 [GitHub Discussions](https://github.com/ganhuaking/ganhuaking.github.io/discussions)，預計會在上面和官網 blog 這裡發布線上分享資訊。
+我們建立了 [GitHub Discussions](https://github.com/ganhuaking/meetups/discussions)，預計會在上面和官網 blog 這裡發布線上分享資訊。
 
 <!--truncate-->
 

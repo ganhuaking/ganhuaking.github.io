@@ -12,7 +12,7 @@ tags:
 
 <!--truncate-->
 
-Storage 也就是跟 [Database](https://github.com/ganhuaking/ganhuaking.github.io/discussions/24) 相關的知識，將在下禮拜四由雷大分享。其中包含了儲存的技術差異，與適用場景等。麥小編也對 Storage 不熟，只有知道最通用的：memory 類的都是拿來做快取，像是 Redis 或 Memcached 之類的。
+Storage 也就是跟 [Database](https://github.com/ganhuaking/meetups/discussions/4) 相關的知識，將在下禮拜四由雷大分享。其中包含了儲存的技術差異，與適用場景等。麥小編也對 Storage 不熟，只有知道最通用的：memory 類的都是拿來做快取，像是 Redis 或 Memcached 之類的。
 
 ---
 
@@ -28,4 +28,4 @@ Storage 也就是跟 [Database](https://github.com/ganhuaking/ganhuaking.github.
 
 會這樣調整主要是考慮到分享者與其他人之間的互動，希望能有好的結果。
 
-有想分享的主題，歡迎來 [Discord](https://discord.io/ganhuaking) 或 [GitHub Discussions](https://github.com/ganhuaking/ganhuaking.github.io/discussions) 一起討論哦！
+有想分享的主題，歡迎來 [Discord](https://discord.io/ganhuaking) 或 [GitHub Discussions](https://github.com/ganhuaking/meetups/discussions) 一起討論哦！

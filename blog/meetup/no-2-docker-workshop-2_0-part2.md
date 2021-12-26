@@ -17,4 +17,4 @@ tags:
 
 最後討論的結果是使用 iptables，Docker 官方文件也有提到[相關的內容](https://docs.docker.com/network/iptables/)，有興趣可以看文件了解。
 
-本次加入兩個許願清單，分別為 NestJS 和 Design Pattern，若有想分享的主題，歡迎來 [Discord](https://discord.io/ganhuaking) 或 [GitHub Discussions](https://github.com/ganhuaking/ganhuaking.github.io/discussions) 一起討論哦！
+本次加入兩個許願清單，分別為 NestJS 和 Design Pattern，若有想分享的主題，歡迎來 [Discord](https://discord.io/ganhuaking) 或 [GitHub Discussions](https://github.com/ganhuaking/meetups/discussions) 一起討論哦！

@@ -17,4 +17,4 @@ NestJS 範例專案解析。
 
 詳細筆記可以參考[傳送門](https://ganhuaruanti.github.io/nestjs-document/)。
 
-下一次將會由雷大分享 storage，未來形式也有可能會有調整，若有想分享的主題，歡迎來 [Discord](https://discord.io/ganhuaking) 或 [GitHub Discussions](https://github.com/ganhuaking/ganhuaking.github.io/discussions) 一起討論哦！
+下一次將會由雷大分享 storage，未來形式也有可能會有調整，若有想分享的主題，歡迎來 [Discord](https://discord.io/ganhuaking) 或 [GitHub Discussions](https://github.com/ganhuaking/meetups/discussions) 一起討論哦！
