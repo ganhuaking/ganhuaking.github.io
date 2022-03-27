@@ -13,7 +13,7 @@ module.exports = {
   onBrokenMarkdownLinks: "warn",
   trailingSlash: true,
   favicon:
-    "https://ganhuaking.tw/asset-2022/03-27-brand/ganhuaking2022-favicon-x32.png",
+    "https://ganhuaking.tw/asset-2022/03-27-brand/ganhuaking2022-favicon.png",
   i18n: {
     defaultLocale: "zh-Hant",
     locales: ["zh-Hant"],
@@ -29,7 +29,7 @@ module.exports = {
       hideOnScroll: true,
       logo: {
         alt: "蔣幹話軟體 Logo",
-        src: "https://ganhuaking.tw/asset-2022/03-27-brand/ganhuaking2022-favicon-x32.png",
+        src: "https://ganhuaking.tw/asset-2022/03-27-brand/ganhuaking2022-favicon.png",
       },
       items: [
         {
