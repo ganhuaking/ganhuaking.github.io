@@ -1,22 +1,19 @@
-/* stylelint-disable docusaurus/copyright-header */
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
-
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@400;700&display=swap");
 
 :root {
-  --ifm-color-primary: #b10dc9;
-  --ifm-color-primary-dark: #a409bc;
-  --ifm-color-primary-darker: #9004a9;
-  --ifm-color-primary-darkest: #7d0097;
-  --ifm-color-primary-light: #be26d6;
-  --ifm-color-primary-lighter: #d23fe9;
-  --ifm-color-primary-lightest: #e754fd;
+  /**
+   * https://swatcherapp.com/
+   * h dif -4
+   * s dif 2
+   * b dif -6
+   */
+  --ifm-color-primary: #c2a28a;
+  --ifm-color-primary-dark: #b38f7b;
+  --ifm-color-primary-darker: #a37e6d;
+  --ifm-color-primary-darkest: #946c60;
+  --ifm-color-primary-light: #d1b599;
+  --ifm-color-primary-lighter: #e0c8a8;
+  --ifm-color-primary-lightest: #f0dbb9;
   --ifm-code-font-size: 95%;
   --ifm-font-family-base: "Noto Sans TC", system-ui, -apple-system, Segoe UI,
     Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont,
@@ -24,6 +21,18 @@
     "Segoe UI Emoji", "Segoe UI Symbol";
   --ifm-font-family-monospace: "Fira Code", SFMono-Regular, Menlo, Monaco,
     Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+html {
+  background-color: #0f2a3f;
+}
+
+.navbar {
+  --ifm-navbar-background-color: #20394f;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #20394f;
 }
 
 p {
@@ -40,14 +49,4 @@ p {
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
-}
-
-html[data-theme="dark"] {
-  --ifm-color-primary: #e754fd;
-  --ifm-color-primary-dark: #d946f0;
-  --ifm-color-primary-darker: #c42edc;
-  --ifm-color-primary-darkest: #b00cc8;
-  --ifm-color-primary-light: #ee62fd;
-  --ifm-color-primary-lighter: #f776fe;
-  --ifm-color-primary-lightest: #ff89ff;
 }

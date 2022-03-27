@@ -1,189 +1,61 @@
 import Link from "@docusaurus/Link";
-import useBaseUrl from "@docusaurus/useBaseUrl";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import { css, cx } from "@emotion/css";
 import Layout from "@theme/Layout";
-import React, { ReactNode } from "react";
+import React from "react";
+import styles from "./index.module.scss";
+import clsx from "clsx";
+import HomepageFeatures from "@site/src/components/HomepageFeatures";
 
-const cssTitle = css`
-  label: Title;
-  color: var(--ifm-color-primary);
-`;
-
-const cssSubtitle = css`
-  label: Subtitle;
-  color: var(--ifm-color-primary);
-`;
-
-const cssButton = css`
-  label: Button;
-  color: #ffdc00;
-  background-color: #3d9970;
-  padding: 0.5em 1em;
-  border-radius: 8px;
-  &:hover,
-  &:focus {
-    outline: none;
-    color: #ffff53;
-    background-color: #6fca9e;
-    text-decoration: none;
-  }
-`;
-
-const cssHeroBanner = css`
-  label: HeroBanner;
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  background-color: #ffdc00;
-  --ifm-color-primary: #b10dc9;
-  @media screen and (max-width: 966px) {
-    padding: 2rem;
-  }
-`;
-
-const cssButtons = css`
-  label: Buttons;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
-const cssFeatures = css`
-  label: Features;
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
-`;
-
-const cssFeatureImage = css`
-  label: FeatureImage;
-  height: 200px;
-  width: 200px;
-`;
-
-const cssIframeContainer = css`
-  label: IframeContainer;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-evenly;
-  padding-bottom: 16px;
-  --gap: 16px;
-  margin: calc(0 - (var(--gap) / 2));
-  & > * {
-    margin: calc(var(--gap) / 2);
-  }
-`;
-
-const features = [
-  {
-    title: "幹話開講",
-    description: (
-      <>
-        技術群不再嚴肅，聊天吹水也是可以的！多個頻道可以選擇，再也不怕歪樓歪到太平洋去啦～
-      </>
-    ),
-  },
-  {
-    title: "專業推坑",
-    description: (
-      <>
-        開發路上滿坑滿谷，無論軟體硬體、技術坑、遊戲坑、3C
-        坑⋯⋯找同好？獨樂樂不如眾樂樂，您不必再寂寞！
-      </>
-    ),
-  },
-  {
-    title: "樂於分享",
-    description: (
-      <>
-        強大陣容呼朋引伴，無論是實體研討會或是線上讀書會，技術分享到轉貼文章，熱愛分享的人通通在這裡！
-      </>
-    ),
-  },
-];
-
-function Feature({
-  imageUrl,
-  title,
-  description,
-}: {
-  imageUrl?: string;
-  title: string;
-  description: ReactNode;
-}) {
-  const imgUrl = useBaseUrl(imageUrl);
+function HomepageHeader() {
+  const { siteConfig } = useDocusaurusContext();
   return (
-    <div className="col col--4">
-      {imgUrl && (
-        <div className="text--center">
-          <img className={cssFeatureImage} src={imgUrl} alt={title} />
+    <header className={clsx("hero hero--primary", styles.heroBanner)}>
+      <div className="container">
+        <h1 className="hero__title">{siteConfig.title}</h1>
+        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className={styles.buttons}>
+          <Link to="/docs">
+            <img
+              alt="Logo"
+              width="360"
+              src="https://ganhuaking.tw/asset-2022/03-27-brand/ganhuaking2022.svg"
+            />
+          </Link>
+          <Link className="button button--secondary button--lg" to="/docs">
+            {"社群介紹"}
+          </Link>
         </div>
-      )}
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </div>
+      </div>
+    </header>
   );
 }
 
 export default function Home() {
-  const context = useDocusaurusContext();
-  const { siteConfig = {} } = context;
   return (
     <Layout
       title="蔣幹話軟體官方網站"
       description="台灣開發者的綜合型 Discord Server"
     >
-      <header className={cx("hero hero--primary", cssHeroBanner)}>
-        <div className="container">
-          <h1 className={cx("hero__title", cssTitle)}>{siteConfig.title}</h1>
-          <p className={cx("hero__subtitle", cssSubtitle)}>
-            {siteConfig.tagline}
-          </p>
-          <div className={cssButtons}>
-            <Link
-              className={cx("button button--outline button--lg", cssButton)}
-              to={useBaseUrl("docs/")}
-            >
-              社群介紹
-            </Link>
-          </div>
-        </div>
-      </header>
+      <HomepageHeader />
       <main>
-        {features && features.length > 0 && (
-          <section className={cssFeatures}>
-            <div className="container">
-              <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
-        <div className={cssIframeContainer}>
+        <HomepageFeatures />
+        <div className={styles.iframeContainer}>
           <iframe
             src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FGanHuaKingSoftware%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-            width="340"
-            height="500"
+            width={340}
+            height={500}
             style={{ border: "none", overflow: "hidden" }}
             scrolling="no"
-            frameBorder="0"
-            allowFullScreen={true}
+            frameBorder={0}
+            allowFullScreen
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
           ></iframe>
           <iframe
             src="https://discordapp.com/widget?id=546392426122575874&theme=dark"
-            width="340"
-            height="500"
-            // typescript can't recognize allowtransparency and react can't recognize allowTransparency
-            /* @ts-ignore */
-            allowtransparency="true"
-            frameBorder="0"
+            width={340}
+            height={500}
+            allowTransparency
+            frameBorder={0}
           ></iframe>
         </div>
       </main>

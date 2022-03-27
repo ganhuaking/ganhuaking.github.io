@@ -2,13 +2,9 @@
   "extends": "@tsconfig/docusaurus/tsconfig.json",
   "include": ["src/", "docusaurus.config.js"],
   "compilerOptions": {
-    "plugins": [
-      {
-        "name": "typescript-styled-plugin",
-        "lint": {
-          "validProperties": ["label"]
-        }
-      }
-    ]
+    "baseUrl": ".",
+    "paths": {
+      "@site/*": ["./*"]
+    }
   }
 }

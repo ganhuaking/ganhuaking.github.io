@@ -1,3 +1,8 @@
+// @ts-check
+
+const discordLink = "https://discord.gg/CzmVQjN";
+const facebookLink = "https://fb.me/GanHuaKingSoftware";
+
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "蔣幹話軟體",
@@ -6,24 +11,25 @@ module.exports = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
-  organizationName: "ganhuaking", // Usually your GitHub org/user name.
-  projectName: "ganhuaking.github.io", // Usually your repo name.
+  trailingSlash: true,
+  favicon:
+    "https://ganhuaking.tw/asset-2022/03-27-brand/ganhuaking2022-favicon-x32.png",
   i18n: {
     defaultLocale: "zh-Hant",
     locales: ["zh-Hant"],
   },
   themeConfig: {
-    image: "img/og_image.png",
+    image: "https://ganhuaking.tw/asset-2022/03-27-brand/ganhuaking2022-og.png",
     colorMode: {
       defaultMode: "dark",
-      respectPrefersColorScheme: true,
+      disableSwitch: true,
     },
     navbar: {
       title: "蔣幹話軟體",
+      hideOnScroll: true,
       logo: {
-        alt: "蔣幹話軟體",
-        src: "img/ghk_2021.svg",
+        alt: "蔣幹話軟體 Logo",
+        src: "https://ganhuaking.tw/asset-2022/03-27-brand/ganhuaking2022-favicon-x32.png",
       },
       items: [
         {
@@ -34,12 +40,12 @@ module.exports = {
         },
         { to: "blog", label: "Blog", position: "left" },
         {
-          href: "https://discord.gg/CzmVQjN",
+          href: discordLink,
           label: "Discord",
           position: "right",
         },
         {
-          href: "https://fb.me/GanHuaKingSoftware",
+          href: facebookLink,
           label: "Facebook",
           position: "right",
         },
@@ -47,6 +53,12 @@ module.exports = {
     },
     footer: {
       style: "dark",
+      logo: {
+        alt: "GanHuaKing Logo",
+        src: "https://ganhuaking.tw/asset-2022/03-27-brand/ganhuaking2022.svg",
+        href: discordLink,
+        width: 160,
+      },
       links: [
         {
           title: "社群介紹",
@@ -70,11 +82,11 @@ module.exports = {
           items: [
             {
               label: "Discord",
-              href: "https://discord.gg/CzmVQjN",
+              href: discordLink,
             },
             {
               label: "Facebook",
-              href: "https://fb.me/GanHuaKingSoftware",
+              href: facebookLink,
             },
           ],
         },
@@ -92,7 +104,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © 2019-${new Date().getFullYear()} 蔣幹話軟體, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © 2019-${new Date().getFullYear()} 蔣幹話軟體, Inc.`,
     },
   },
   presets: [
@@ -101,15 +113,9 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/ganhuaking/ganhuaking.github.io/edit/master/website/",
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/ganhuaking/ganhuaking.github.io/edit/master/website/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -122,6 +128,7 @@ module.exports = {
     ],
   ],
   plugins: [
+    "docusaurus-plugin-sass",
     [
       "@docusaurus/plugin-content-docs",
       {

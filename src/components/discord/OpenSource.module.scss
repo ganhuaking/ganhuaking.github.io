@@ -1,0 +1,23 @@
+.repositories {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.repo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+
+.logo {
+  filter: grayscale(100%) brightness(0%);
+  --size: 24px;
+  height: var(--size);
+  width: var(--size);
+  margin-right: 8px;
+  html[data-theme="dark"] & {
+    filter: grayscale(100%) brightness(100%);
+  }
+}
