@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkganhuaking_github_io=self.webpackChunkganhuaking_github_io||[]).push([[2497],{4019:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","name":"\u9810\u544a","count":1,"permalink":"/blog/tags/\u9810\u544a"}')}}]);
