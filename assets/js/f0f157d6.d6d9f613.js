@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkganhuaking_github_io=self.webpackChunkganhuaking_github_io||[]).push([[3950],{1473:function(a){a.exports=JSON.parse('{"label":"discord","permalink":"/blog/tags/discord","allTagsPath":"/blog/tags","count":1}')}}]);
